@@ -1,0 +1,132 @@
+.navbar-brand{
+  background-image: url(./img/logo.png);
+  width: 50px;
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+/* .nav .navbar-nav li{
+  font-size: 40px;
+} */
+.side-bar a{
+  margin-bottom:5px;
+  border: 0;
+  border-radius: 3px;
+}
+.side-bar a.active{
+  background-color:#ea0c3c;
+}
+.news-list-item img{
+  max-width: 100%;
+  border-radius: 3px;
+}
+.news-list-item{
+  margin-bottom: 10px;
+}
+.news-title{
+  font-size: 18px;
+  color: #333;
+  text-decoration: none;
+  margin-bottom: 12px;
+  line-height: 1.5;
+}
+.news-title:hover{
+  text-decoration: none;
+}
+.col-xs-7 p{
+  margin-top: 5px;
+  color: #999;
+}
+.side-bar-card{
+  margin: 10px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #f2f2f2;
+}
+.side-bar-card img{
+ 
+  max-width: 100%;
+  border-radius: 3px;
+}
+.side-bar-card .card-title{
+  font-size: 16px;
+  color: black;
+}
+.side-bar-card .card-header{
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+.card-body{
+  padding: 10px 0;
+}
+.card-body:hover{
+  background-color: #dddcdc;
+}
+.card-body .card-body1 a{
+  color: #333;
+  font-size: 18px;
+  text-decoration: none;
+}
+.card-body .card-body1 a:hover{
+  text-decoration: none;
+}
+.card-body .card-body2{
+  color: #999;
+  padding: 5px 0; 
+}
+
+
+/* content */
+.content-header{
+  font-size: 30px;
+}
+.content-label{
+  padding: 10px 0;
+  color: #999;
+  opacity: 0.8;
+}
+.other2 img{
+  max-width: 100%;
+  padding-top: 10px;
+  padding-left: 0;
+  padding-right: 0; 
+} 
+.holl{
+  margin: 15px 0;
+  padding: 5px 0;
+}
+.holl:hover{
+  background-color:#e2dfdf;
+}
+.card-body3{
+  color: #999;
+  margin:5px 0;
+}
+.card-header{
+  padding: 5px 10px;
+}
+.card-body{
+  padding-left: 10px;
+}
+
+
+
+
+/* 登录 */
+.container-small{
+  max-width: 500px;
+}
+
+.btn-primary {
+  background-color: #ea0c3c;
+  border-color: #db0d3a;
+}
+
+.footer{
+  
+  margin-top: 20px;
+  padding: 50px 0;
+  text-align: center;
+  color: #999;
+}

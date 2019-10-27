@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.bootcss.com/jquery/3.4.0/jquery.min.js"></script>
+</head>
+
+<body>
+
+  <div class="top-nav clearf">
+    <div class="container">
+      <div class="fl">
+        <a class="item" href="">首页</a></div>
+      <div class="fr">
+        <a class="item" href="">我的订单</a>
+        <a class="item" href="">收藏夹</a>
+        <a class="item" href="">登录</a>
+        <a class="item" href="">注册</a>
+        <a class="item" href="">客户服务</a>
+      </div>
+    </div>
+  </div>
+  <div class="header clearf">
+    <div class="container">
+      <div class="col-2">
+        <div class="logo">许鑫电商</div>
+      </div>
+      <div class="search-bar col-5">
+        <input type="text" class="col-8">
+        <button class="col-2">搜索</button>
+      </div>
+      <div class="col-3">
+        <div class="mycart">
+          我的购物车
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="promote-part clearf">
+    <div class="container">
+      <div class="col-2">
+        <div class="item-tag">
+          <div class="item">item1/item1</div>
+          <div class="item">item2/item2</div>
+          <div class="item">item3/item3</div>
+          <div class="item">item4/item4</div>
+          <div class="item">item5/item5</div>
+          <div class="item">item6/item6</div>
+          <div class="item">item7/item7</div>
+          <div class="item">item8/item8</div>
+          <div class="item">item9/item9</div>
+          <div class="item">item7/item7</div>
+
+
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="main-promote">
+          <div class="slider">
+            <img id="slider1" style="display: block" src="./img/aaa1.png" alt="">
+          </div>
+          <div class="slider">
+            <img id="slider2" style="display: none" src="./img/aaa2.png" alt="">
+          </div>
+          <div class="sub-promote">
+            <div class="col-5">
+              <img src="./img/aaa (1).png" alt="">
+            </div>
+            <div class="col-5">
+              <img src="./img/fff.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-2 right-part">
+        <div>
+          <div class="info clearf">
+            <div class="avater">
+            </div>
+            <div class="userinfo">
+              YO,欢迎来到许鑫商城！
+            </div>
+          </div>
+          <div class="auth">
+            <button>登录</button>
+            <button>注册</button>
+          </div>
+        </div>
+        <div class="tips">
+          <div>公告</div>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse velit quis inventore facilis. Earum quas
+            debitis quasi perferendis, praesentium, modi
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse velit quis inventore facilis. Earum quas
+            debitis quasi perferendis, praesentium, modi molestiae deserunt eligendi ullam dolore, illum eum!</p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="item-disp clearf">
+    <div class="container">
+      <div class="cat-name">男装</div>
+      <div>
+        <div class="col-2">
+          <div style="background: #f9e279" class="card"></div>
+        </div>
+        <div class="col-3">
+          <div style="background: #d3b3e2" class="card"></div>
+        </div>
+        <div class="col-2">
+          <div style="background: #afc4e4" class="card"></div>
+        </div>
+        <div class="col-3">
+          <div style="background: #d3b3e2" class="card"></div>
+        </div>
+      </div>
+      <div class="cat-name">女装</div>
+      <div>
+        <div class="col-3">
+          <div style="background: #f9e279" class="card"></div>
+        </div>
+        <div class="col-4">
+          <div style="background: #d3b3e2" class="card"></div>
+        </div>
+        <div class="col-3">
+          <div style="background: #afc4e4" class="card"></div>
+        </div>
+
+      </div>
+      <div class="cat-name">零食</div>
+      <div>
+        <div class="col-2">
+          <div style="background: #f9e279" class="card"></div>
+        </div>
+        <div class="col-3">
+          <div style="background: #d3b3e2" class="card"></div>
+        </div>
+        <div class="col-2">
+          <div style="background: #afc4e4" class="card"></div>
+        </div>
+        <div class="col-3">
+          <div style="background: #d3b3e2" class="card"></div>
+        </div>
+      </div>
+      <div class="cat-name">玩具</div>
+      <div>
+        <div class="col-4">
+          <div style="background: #d3b3e2" class="card"></div>
+        </div>
+        <div class="col-3">
+          <div style="background:#f9e279 " class="card"></div>
+        </div>
+        <div class="col-3">
+          <div style="background: #afc4e4" class="card"></div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="footer clearf">
+    <div class="container">
+      联系我们 招聘信息 商家入驻 商家后台
+    </div>
+  </div>
+  </div>
+  <script>
+    var a1 = document.getElementById("slider1");
+    var a2 = document.getElementById("slider2");
+    var i = 1;
+
+    // a1.style.display = "block";
+    // a2.style.display = "none";
+    var time = setInterval(function () {
+      i++;
+      if (i % 2 == 0) {
+        a1.style.display = "none";
+        a2.style.display = "block";
+      } else {
+        a1.style.display = "block";
+        a2.style.display = "none";
+      }
+    }, 2000);
+
+  </script>
+</body>
+
+</html>

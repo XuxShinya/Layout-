@@ -1,0 +1,74 @@
+body{
+  background-color: #454545;
+}
+a{
+  text-decoration: none;
+}
+.sideBar{
+  float: left;
+  width: 20%;
+  margin-top: 15px;
+  position: fixed;
+}
+.sideBar >*{
+  margin: 20px;
+}
+.sideBar a{
+  font-size: 30px;
+ 
+  color: #eee;
+}
+.sideBar .name{
+  border: 5px solid #eee;
+  padding: 5px 10px;
+}
+.sideBar .slogon{
+  color: #eee;
+}
+.info a, .tag-list a{
+  display: block;
+  font-size: 16px;
+  color: #928f8f;
+  padding: 8px 0;
+}
+.info{
+  margin-bottom: 20px;
+  font-weight: 790;
+}
+.info a:hover, .tag-list a:hover{
+  color: #eee;
+}
+
+.articleList, .article{
+  float: right;
+  width: 80%;
+}
+.item{
+  background-color: #fff;
+  margin-right: 30%;
+  border-collapse: collapse;
+  border-bottom-style:solid;
+	border-bottom-color:#454545;
+	border-bottom-width:2px;
+}
+.item>*{
+  padding: 8px 10px;
+  
+}
+.item .header{
+  font-size: 22px;
+}
+.item .status{
+  font-size: 14px;
+  color: #928f8f;
+}
+.item a{
+  color: black;
+}
+.content-header{
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+.article .status{
+  padding-top: 0px;
+}

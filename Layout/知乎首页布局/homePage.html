@@ -1,0 +1,138 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <script src="./function/function.js"></script>
+  <link rel="stylesheet" href="./lib/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./homePage.css">
+</head>
+
+<body>
+  <div id="root">
+    <div id="headerBar">
+      <header>
+        <div id="header1">
+          <a href="#" id="logo">知乎</a>
+          <a href="#" class="subHeader headerActive">首页</a>
+          <a href="#" class="subHeader">发现</a>
+          <a href="#" class="subHeader2">等你来答</a>
+          <input type="text" name="" placeholder='谁是傻瓜猫大人🐱' class="searchInput">
+          <button class="searchInput2"><span class="fa fa-search fa-2x"></span></button>
+          <button id="commitBtn">提问</button>
+          <div id="rightPartHeader">
+            <a href="#" class="h11">
+              <span class="fa fa-bell fa-2x"></span>
+            </a>
+            <a href="#" class="h11"> <span class="fa fa-comments fa-2x"></span></a>
+            <div class="h11" id="avator"><img src="./avator2.JPG" alt="avator"></div>
+          </div>
+        </div>
+        <div id="header2"></div>
+      </header>
+    </div>
+    <main id="dispMain">
+      <div id="container">
+        <div id="mainPart">
+          <div id="mainPartContainer">
+            <div id="nav">
+              <div id="nav1">推荐</div>
+              <div id="nav2">关注</div>
+              <div id="nav3" class="navActive">热榜</div> <!-- 应该用ul>li来写 -->
+            </div>
+            <div id="contentContainer">
+              <div id="outerTagContainer">
+                <div id="contentTag">
+                  <a href="#" id="tag1" class='contentTags tagActive'>全站</a>
+                  <a href="#" id="tag2" class='contentTags'>科学</a>
+                  <a href="#" id="tag3" class='contentTags'>数码</a>
+                  <a href="#" id="tag4" class='contentTags'>体育</a>
+                  <a href="#" id="tag5" class='contentTags'>时尚</a>
+                  <a href="#" id="tag5" class='contentTags'>影视</a>
+                </div>
+                <button id='moreTagsBtn'>展开</button>
+              </div>
+              <div id="contentContainer">
+                <!-- <div id="content"> -->
+                <!-- <div id="contentNum">1</div>
+                      <div id="contentMain">
+                        <a id="contentTitle">
+                          <h3>你们的匡威是烂到什么程度才换的？</h3>
+                        </a>
+                        <div id="contentSub">匡威坏道什么样子才换，脱胶到什么程度？Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                          Asperiores corrupti, deserunt non hic minima aliquam inventore porro, tempore laboriosam similique
+                          tenetur alias dolores dolorem et minus reiciendis temporibus. Id, quam?</div>
+                        <div id="contentlabel">
+                          a 307万热度&nbsp;&nbsp;&nbsp;a 分享
+                        </div>
+                      </div>
+                      <a id="contentImg"><img src="https://pic1.zhimg.com/50/v2-f9195a7f3f3d44123c623d029b37b2d1_400x224.jpg"
+                          alt=""></a> -->
+                <!-- </div> -->
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <div id="globalSidebar">
+          <div id="sidebar1">
+            <div id="sidebar11">
+              <div id="sidebar111">
+                <span class="fa fa-edit  fa-lg s1 "></span> <br />
+                <a href="#" id="s11">写回答</a>
+              </div>
+              <div id="sidebar112"> <span class="fa fa-file-o fa-lg  s1"></span> <br /><a href="#" id="s11">写文章</a>
+              </div>
+              <div id="sidebar113"> <span class="fa fa-list-alt fa-lg s1"></span><br /><a href="#" id="s11">写想法</a>
+              </div>
+            </div>
+            <div id="sidebar12">
+              <div id="sidebar121"><span class="fa fa-clock-o fa-lg s1"></span>&nbsp;&nbsp;我的稍后答</div>
+              <hr />
+              <div id="sidebar122"><span class="fa fa-file fa-lg s1"></span>&nbsp;&nbsp;我的草稿</div>
+            </div>
+          </div>
+          <div id="sidebar2">
+            <a href="#" id="sidebar21"> <span class="fa fa-bolt fa-lg s2"></span><br />Live</a>
+            <a href="#" id="sidebar22"> <span class="fa fa-book fa-lg s3"></span><br />书店</a>
+            <a href="#" id="sidebar23"> <span class="fa fa-asterisk fa-lg s4"></span><br />圆桌</a>
+            <a href="#" id="sidebar24"> <span class="fa fa-pencil fa-lg s5"></span> <br />专栏</a>
+            <a href="#" id="sidebar25"> <span class="fa fa-cny fa-lg s6"></span><br />付费咨询</a>
+          </div>
+          <div id="sidebar3">
+            <div id="sidebar31"><span class="fa fa-star s1"></span>&nbsp;&nbsp;我的收藏</div>
+            <div id="sidebar32"><span class="fa fa-question-circle s1"></span>&nbsp;&nbsp;我关注的问题</div>
+            <div id="sidebar33"><span class="fa fa-user-plus s1"></span>&nbsp;&nbsp;我的邀请</div>
+            <div id="sidebar34"><span class="fa fa-navicon s1"></span>&nbsp;&nbsp;站务中心</div>
+            <div id="sidebar35"><span class="fa fa-copyright s1"></span>&nbsp;&nbsp;版权服务中心</div>
+          </div>
+          <div id="sidebar4">
+            <div>
+              <a href="#" class='indexTags'>刘看山</a>·<a href="#" class='indexTags'>知乎指南</a>·<a href="#"
+                class='indexTags'>知乎协议</a>·<br />
+              <a href="#" class='indexTags'>知乎隐私</a><br />
+              <a href="#" class='indexTags'>保护指引</a><br />
+              <a href="#" class='indexTags'>应用</a>·<a href="#" class='indexTags'>工作</a>·<a href="#"
+                class='indexTags'>申请开通知乎机构号</a><br />
+              <a href="#" class='indexTags'>侵权举报</a>·<a href="#" class='indexTags'>网上有害信息举报专区</a><br />
+              <a href="#" class='indexTags'>京 ICP 证 110745 号</a><br />
+              <a href="#" class='indexTags'>京公网安备 11010802010035 号</a><br />
+              <p>违法和不良信息举报：010-82716601</p><br />
+              <a href="#" class='indexTags'>儿童色情信息举报专区</a><br />
+              <a href="#" class='indexTags'>证照中心</a><br />
+              <a href="#" class='indexTags'>联系我们 </a>
+              <p>© 2019 知乎</p><br />
+            </div>
+          </div>
+          <!-- <div id="sidebar5">asd</div> -->
+        </div>
+      </div>
+    </main>
+  </div>
+  <script src="./homePage.js"></script>
+</body>
+
+</html>
